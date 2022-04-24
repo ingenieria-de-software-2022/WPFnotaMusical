@@ -27,17 +27,28 @@ namespace WPFnotaMusical
         {
             InitializeComponent();
             listBoxLog.Items.Clear();
+            scale = 5;
         }
 
         private void doButton_Click(object sender, RoutedEventArgs e)
         {
-            SoundPlayer nota1 = new SoundPlayer();
-            nota1.SoundLocation = (@"56.wav");
-            nota1.Load();
-            nota1.Play();
-            //958
-            note = 11;
-            scale = 5;
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoDo.wav");
+            nota.Load();
+            nota.Play();
+            note = 1;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+                private void doSButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoDoS.wav");
+            nota.Load();
+            nota.Play();
+            note = 2;
             frecuency = CalculateFrecuency(note, scale);
             listBoxLog.Items.Clear();
             listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
@@ -46,33 +57,134 @@ namespace WPFnotaMusical
 
         private void reButton_Click(object sender, RoutedEventArgs e)
         {
-            SoundPlayer nota3 = new SoundPlayer();
-            nota3.SoundLocation = (@"80.wav");
-            nota3.Load();
-            nota3.Play();
-            //764
-            note = 8;
-            scale = 5;
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoRe.wav");
+            nota.Load();
+            nota.Play();
+            note = 3;
             frecuency = CalculateFrecuency(note, scale);
             listBoxLog.Items.Clear();
             listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
             listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
         }
 
-        private void doSButton_Click(object sender, RoutedEventArgs e)
+        private void reSButton_Click(object sender, RoutedEventArgs e)
         {
-            SoundPlayer nota2 = new SoundPlayer();
-            nota2.SoundLocation = (@"60.wav");
-            nota2.Load();
-            nota2.Play();
-            //721
-            note = 7;
-            scale = 5;
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoReS.wav");
+            nota.Load();
+            nota.Play();
+            note = 4;
             frecuency = CalculateFrecuency(note, scale);
             listBoxLog.Items.Clear();
             listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
             listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
         }
+
+        private void miButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoMi.wav");
+            nota.Load();
+            nota.Play();
+            note = 5;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void faButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoFa.wav");
+            nota.Load();
+            nota.Play();
+            note = 6;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void faSButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoFaS.wav");
+            nota.Load();
+            nota.Play();
+            note = 7;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void solButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoSol.wav");
+            nota.Load();
+            nota.Play();
+            note = 8;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void solSButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoSolS.wav");
+            nota.Load();
+            nota.Play();
+            note = 9;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void laButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoLa.wav");
+            nota.Load();
+            nota.Play();
+            note = 10;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void laSButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoLaS.wav");
+            nota.Load();
+            nota.Play();
+            note = 11;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
+        private void siButton_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer nota = new SoundPlayer();
+            nota.SoundLocation = (@"pianoSi.wav");
+            nota.Load();
+            nota.Play();
+            note = 12;
+            frecuency = CalculateFrecuency(note, scale);
+            listBoxLog.Items.Clear();
+            listBoxLog.Items.Add($"Nota\tEscala\tFrecuencia");
+            listBoxLog.Items.Add($"{note}\t{scale}\t{frecuency}");
+        }
+
         public double CalculateFrecuency(double note, double scale)
         {
             return 440 * Math.Exp(((scale - 4) + ((note - 10) / 12)) * Math.Log(2));
