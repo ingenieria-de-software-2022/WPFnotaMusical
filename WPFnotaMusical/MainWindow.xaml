@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="Práctica | Nota Musical" Height="450" Width="640">
     <Grid>
-        <Button x:Name="doButton" HorizontalAlignment="Left" Height="165" Margin="152,55,0,0" VerticalAlignment="Top" Width="60" Click="doButton_Click" Background="White">
+        <Button x:Name="doButton" HorizontalAlignment="Left" Height="165" Margin="188,55,0,0" VerticalAlignment="Top" Width="60" Click="doButton_Click" Background="White">
             <Label x:Name="labelDo" Content="Do" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="signature" Content="Firma" HorizontalAlignment="Left" Margin="72,312,0,0" VerticalAlignment="Top" Background="#FF4EB5D8" Foreground="White" Height="32" Width="60" FontSize="16" Click="signature_Click"/>
-        <Button x:Name="reButton" HorizontalAlignment="Left" Height="165" Margin="212,55,0,0" VerticalAlignment="Top" Width="58" Click="reButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="signature" Content="Firma" HorizontalAlignment="Left" Margin="61,312,0,0" VerticalAlignment="Top" Background="#FF4EB5D8" Foreground="White" Height="32" Width="60" FontSize="16" Click="signature_Click"/>
+        <Button x:Name="reButton" HorizontalAlignment="Left" Height="165" Margin="248,55,0,0" VerticalAlignment="Top" Width="58" Click="reButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelRe" Content="Re" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
         <ListBox x:Name="listBoxLog" HorizontalAlignment="Left" Height="118" Margin="226,269,0,0" VerticalAlignment="Top" Width="322" d:ItemsSource="{d:SampleData ItemCount=0}"/>
-        <Button x:Name="doSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="191,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="doSButton_Click" BorderBrush="Black" Background="#FF040404">
+        <Button x:Name="doSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="227,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="doSButton_Click" BorderBrush="Black" Background="#FF040404">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,22 +25,22 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="miButton" HorizontalAlignment="Left" Height="165" Margin="270,55,0,0" VerticalAlignment="Top" Width="58" Click="miButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="miButton" HorizontalAlignment="Left" Height="165" Margin="306,55,0,0" VerticalAlignment="Top" Width="58" Click="miButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelMi" Content="Mi" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="faButton" HorizontalAlignment="Left" Height="165" Margin="328,55,0,0" VerticalAlignment="Top" Width="58" Click="faButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="faButton" HorizontalAlignment="Left" Height="165" Margin="364,55,0,0" VerticalAlignment="Top" Width="58" Click="faButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelFa" Content="Fa" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="solButton" HorizontalAlignment="Left" Height="165" Margin="386,55,0,0" VerticalAlignment="Top" Width="58" Click="solButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="solButton" HorizontalAlignment="Left" Height="165" Margin="422,55,0,0" VerticalAlignment="Top" Width="58" Click="solButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelSol" Content="Sol" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="laButton" HorizontalAlignment="Left" Height="165" Margin="444,55,0,0" VerticalAlignment="Top" Width="58" Click="laButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="laButton" HorizontalAlignment="Left" Height="165" Margin="480,55,0,0" VerticalAlignment="Top" Width="58" Click="laButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelLa" Content="La" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="siButton" HorizontalAlignment="Left" Height="165" Margin="502,55,0,0" VerticalAlignment="Top" Width="58" Click="siButton_Click" BorderBrush="#FF7B7B7B" Background="White">
+        <Button x:Name="siButton" HorizontalAlignment="Left" Height="165" Margin="538,55,0,0" VerticalAlignment="Top" Width="58" Click="siButton_Click" BorderBrush="#FF7B7B7B" Background="White">
             <Label x:Name="labelSi" Content="Si" FontWeight="Bold" HorizontalContentAlignment="Center" Height="150" Width="26" VerticalContentAlignment="Bottom"/>
         </Button>
-        <Button x:Name="reSButton" HorizontalAlignment="Left" Height="111" Margin="249,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="reSButton_Click" BorderBrush="Black" Background="#FF040404">
+        <Button x:Name="reSButton" HorizontalAlignment="Left" Height="111" Margin="285,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="reSButton_Click" BorderBrush="Black" Background="#FF040404">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -50,7 +50,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="faSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="366,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="faSButton_Click" BorderBrush="Black" Background="#FF040404">
+        <Button x:Name="faSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="402,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="faSButton_Click" BorderBrush="Black" Background="#FF040404">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -60,7 +60,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="solSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="423,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="solSButton_Click" BorderBrush="Black" Background="#FF040404">
+        <Button x:Name="solSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="459,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="solSButton_Click" BorderBrush="Black" Background="#FF040404">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -70,7 +70,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="laSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="482,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="laSButton_Click" BorderBrush="Black" Background="#FF040404">
+        <Button x:Name="laSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="518,55,0,0" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.5,0.5" Click="laSButton_Click" BorderBrush="Black" Background="#FF040404">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -80,5 +80,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <ComboBox x:Name="selectInstrument" HorizontalAlignment="Left" Margin="31,116,0,0" VerticalAlignment="Top" Width="120" Text="piano"/>
+        <Label Content="Seleccione un instrumento" HorizontalAlignment="Left" Margin="16,86,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

@@ -27,13 +27,17 @@ namespace WPFnotaMusical
         {
             InitializeComponent();
             listBoxLog.Items.Clear();
+            selectInstrument.Items.Add("piano");
+            selectInstrument.Items.Add("bajo");
+            selectInstrument.Text = "piano";
             scale = 5;
         }
 
         private void doButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoDo.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoDo.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoDo.wav");
             nota.Load();
             nota.Play();
             note = 1;
@@ -45,7 +49,8 @@ namespace WPFnotaMusical
                 private void doSButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoDoS.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoDoS.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoDoS.wav");
             nota.Load();
             nota.Play();
             note = 2;
@@ -58,7 +63,8 @@ namespace WPFnotaMusical
         private void reButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoRe.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoRe.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoRe.wav");
             nota.Load();
             nota.Play();
             note = 3;
@@ -71,7 +77,8 @@ namespace WPFnotaMusical
         private void reSButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoReS.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoReS.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoReS.wav");
             nota.Load();
             nota.Play();
             note = 4;
@@ -84,7 +91,8 @@ namespace WPFnotaMusical
         private void miButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoMi.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoMi.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoMi.wav");
             nota.Load();
             nota.Play();
             note = 5;
@@ -97,7 +105,8 @@ namespace WPFnotaMusical
         private void faButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoFa.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoFa.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoFa.wav");
             nota.Load();
             nota.Play();
             note = 6;
@@ -110,7 +119,8 @@ namespace WPFnotaMusical
         private void faSButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoFaS.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoFaS.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoFaS.wav");
             nota.Load();
             nota.Play();
             note = 7;
@@ -123,7 +133,8 @@ namespace WPFnotaMusical
         private void solButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoSol.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoSol.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoSol.wav");
             nota.Load();
             nota.Play();
             note = 8;
@@ -136,7 +147,8 @@ namespace WPFnotaMusical
         private void solSButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoSolS.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoSolS.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoSolS.wav");
             nota.Load();
             nota.Play();
             note = 9;
@@ -149,7 +161,8 @@ namespace WPFnotaMusical
         private void laButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoLa.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoLa.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoLa.wav");
             nota.Load();
             nota.Play();
             note = 10;
@@ -162,7 +175,8 @@ namespace WPFnotaMusical
         private void laSButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoLaS.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoLaS.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoLaS.wav");
             nota.Load();
             nota.Play();
             note = 11;
@@ -175,7 +189,8 @@ namespace WPFnotaMusical
         private void siButton_Click(object sender, RoutedEventArgs e)
         {
             SoundPlayer nota = new SoundPlayer();
-            nota.SoundLocation = (@"pianoSi.wav");
+            if (selectInstrument.Text == "piano") nota.SoundLocation = (@"pianoSi.wav");
+            if (selectInstrument.Text == "bajo") nota.SoundLocation = (@"bajoSi.wav");
             nota.Load();
             nota.Play();
             note = 12;
