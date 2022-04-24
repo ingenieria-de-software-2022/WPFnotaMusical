@@ -1,0 +1,16 @@
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\bin\Debug\WPFnotaMusical.exe.config
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\bin\Debug\WPFnotaMusical.exe
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\bin\Debug\WPFnotaMusical.pdb
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.csproj.AssemblyReference.cache
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.csproj.SuggestedBindingRedirects.cache
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\MainWindow.g.cs
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\App.g.cs
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical_MarkupCompile.cache
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical_MarkupCompile.lref
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\MainWindow.baml
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.g.resources
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.Properties.Resources.resources
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.csproj.GenerateResource.cache
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.csproj.CoreCompileInputs.cache
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.exe
+C:\Users\lange\Downloads\ingenieria-de-software\WPFnotaMusical\WPFnotaMusical\obj\Debug\WPFnotaMusical.pdb

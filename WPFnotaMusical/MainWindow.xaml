@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFnotaMusical.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFnotaMusical"
+        mc:Ignorable="d"
+        Title="Práctica | Nota Musical" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="signature" Content="Firma" HorizontalAlignment="Left" Margin="68,139,0,0" VerticalAlignment="Top" Background="#FF4EB5D8" Foreground="White" Height="33" Width="59" FontSize="16" Click="signature_Click"/>
+        <Button x:Name="doButton" Content="" HorizontalAlignment="Left" Height="165" Margin="258,130,0,0" VerticalAlignment="Top" Width="61" Click="doButton_Click" Background="White"/>
+        <Button x:Name="reButton" Content="" HorizontalAlignment="Left" Height="165" Margin="319,130,0,0" VerticalAlignment="Top" Width="58" Click="reButton_Click" BorderBrush="#FF7B7B7B" Background="White"/>
+        <ListBox x:Name="listBoxLog" HorizontalAlignment="Left" Height="118" Margin="465,0,0,0" VerticalAlignment="Center" Width="265" d:ItemsSource="{d:SampleData ItemCount=0}"/>
+        <Button x:Name="doSButton" Content="" HorizontalAlignment="Left" Height="111" Margin="301,129,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5" Click="doSButton_Click" BorderBrush="Black" Background="#FF040404">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>
